@@ -1,0 +1,43 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "booking room backend expressjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ductandevtech/BookingRoom.git"
+  },
+  "keywords": [
+    "express.js",
+    "bookingroom",
+    "reactjs",
+    "fullstack"
+  ],
+  "author": "nguyenductandevtech@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ductandevtech/BookingRoom/issues"
+  },
+  "homepage": "https://github.com/ductandevtech/BookingRoom#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0",
+    "nodejs": "file:",
+    "sequelize": "^6.37.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.10",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.9",
+    "nodemon": "^3.1.9",
+    "sequelize-cli": "^6.6.2"
+  }
+}
